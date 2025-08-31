@@ -14,12 +14,12 @@ const Hero = () => {
           </figure>
 
           <div className="md:col-span-1 place-self-center text-center">
-            <h1 className="text-white font-black text-4xl pt-2">Tomi Cigula</h1>
+            <h1 className="text-white font-black text-5xl pt-2">Tomi Cigula</h1>
             <div className="text-white text-xl">Software Developer</div>
           </div>
 
           <aside className="md:col-span-1 text-center pt-2 place-self-center">
-            <p className="text-white font-mono">
+            <p className="text-white font-mono italic">
               "Engineering the Future, One Application at a Time."
             </p>
           </aside>

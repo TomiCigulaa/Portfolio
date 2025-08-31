@@ -1,0 +1,29 @@
+[
+  {
+  "id": "1",
+  "company": "GAREX d.o.o.",
+  "role": "IT Intern",
+  "location": "Maribor, Slovenia",
+  "start": "2022-06-25",
+  "end": "2022-07-25",
+  "type": "Internship",
+  "summary": "One-month IT internship focused on end-user support, workstation provisioning and a small Ubuntu automation project.",
+  "description": "Worked in a small IT team, supporting day-to-day user requests and preparing workstations. Tasks included RAM upgrades, fresh OS installs, software setup and basic hardware servicing (e.g., monitors). Occasionally assisted on site with equipment replacement. For internal evaluation, compared competing software solutions. As a solo mini-project, prototyped a customized Ubuntu installation: preset timezone/language/keyboard, bundled company software and wrote a Bash post-install script. The script worked; ISO remastering still required a few additional steps.",
+  "highlights": [
+    "Workstation provisioning (RAM, OS, software).",
+    "Basic hardware servicing & user support.",
+    "On-site assistance (equipment swaps).",
+    "Competitive software comparisons.",
+    "Prototype of automated Ubuntu install (Bash)."
+  ],
+  "tech": [
+    "Ubuntu",
+    "Linux",
+    "Bash",
+    "PC provisioning",
+    "Hardware servicing"
+  ],
+  "companyLogo": "/logos/garex.png",
+  "link": "https://www.garex.si"
+}
+]
