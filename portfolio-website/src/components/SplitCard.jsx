@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SplitCard = ({children, leftBoxBg = 'bg-stone-400', rightBoxBg= 'bg-stone-100'}) => {
+const SplitCard = ({children, leftBoxBg = 'bg-stone-400', rightBoxBg= 'bg-stone-100', textAligment = 'text-left'}) => {
     let Left, Right;
     React.Children.forEach(children, child =>{
         if (!React.isValidElement(child)) return;
@@ -9,10 +9,10 @@ const SplitCard = ({children, leftBoxBg = 'bg-stone-400', rightBoxBg= 'bg-stone-
     })
   return (
     <div className='grid grid-cols-1 md:grid-cols-[240px_1fr] md:m-4 rounded-3xl shadow-md overflow-hidden'>
-        <div className={`${leftBoxBg} p-4 shadow-md`}>
+        <div className={`${leftBoxBg} ${textAligment} p-4 shadow-md`}>
             {Left}
         </div>
-        <div className={`${rightBoxBg} p-4 shadow-md`}>
+        <div className={`${rightBoxBg} ${textAligment} p-4 shadow-md`}>
             {Right}
         </div>
     </div>

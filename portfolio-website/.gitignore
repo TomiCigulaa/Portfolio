@@ -25,4 +25,4 @@ dist-ssr
 *.sw?
 
 
-/src/assets/osebna.png
+/public/images/osebna.png

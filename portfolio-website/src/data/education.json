@@ -1,0 +1,24 @@
+[
+    {
+    "id": "hs",
+    "school": "Srednja elektro-računalniška šola",
+    "program": "Tehnik računalništva",
+    "degree": "High School Diploma",
+    "location": "Maribor, Slovenia",
+    "start": "2018-09",
+    "end": "2022-06",
+    "status": "completed",
+    "links": { "school": "https://elektro.scptuj.si/"}
+  },
+  {
+    "id": "feri",
+    "school": "FERI, University of Maribor",
+    "program": "BSc – Computer Science (2nd year)",
+    "degree": "BSc (ongoing)",
+    "location": "Maribor, Slovenia",
+    "start": "2022-10",
+    "end": null,
+    "status": "current",
+    "links": { "school": "https://feri.um.si" }
+  }
+]

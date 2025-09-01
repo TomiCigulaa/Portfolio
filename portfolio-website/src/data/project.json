@@ -1,0 +1,132 @@
+[
+      {
+    "id": "1",
+    "slug": "smart-locker",
+    "title": "Smart Locker",
+    "tagline": "End-to-end system: React dashboard, Express API, Android (Kotlin) unlocking, and face recognition with a custom model.",
+    "summary": "A two-person team built a complete smart-locker system: web dashboard, mobile unlocking, and a backend API. I prepared and trained the face-recognition model; my teammate integrated the model into the app and API.",
+    "description": "The project combines multiple technologies into a production-oriented smart-locker prototype. The React frontend provides a dashboard for users, packages, and administration. The Express backend exposes REST endpoints for authentication, face enrollment/verification, and locker open commands. The Android app (Kotlin) handles unlocking and communicates with the API. A custom face-recognition model (data prep, training, evaluation, export) is used for verification. CI/CD runs on GitHub Actions, and Docker supports local development.",
+    "category": "Capstone / Team Project",
+    "platform": "Web + Android + Backend",
+    "teamSize": 2,
+    "role": "ML Engineer & Full-stack Contributor",
+    "contributions": [
+      "Prepared and trained the face-recognition model (dataset pipeline, augmentation, evaluation, export)",
+      "Defined API endpoints for face enrollment/verification and locker unlocking",
+      "Contributed to the React dashboard (admin/user UI) and coordinated data schemas",
+      "Dockerized the dev environment and drafted CI/CD pipeline (GitHub Actions)"
+    ],
+    "collaboration": [
+      "Teammate: integrated the model into the backend/mobile app and implemented API logic",
+      "Co-designed roles/permissions (admin vs user), coordinated via Jira"
+    ],
+    "tech": [
+      "React",
+      "Express",
+      "Node.js",
+      "Android (Kotlin)",
+      "Python",
+      "Docker",
+      "GitHub Actions",
+      "Jira",
+      "Git"
+    ],
+    "techBreakdown": {
+      "frontend": ["React", "Vite/Tailwind", "React Router"],
+      "backend": ["Node.js", "Express", "JWT/Session (auth)", "REST API"],
+      "mobile": ["Android", "Kotlin", "HTTP/Retrofit (or similar)"],
+      "ml": ["Python", "Face recognition model (training/export)", "Data preprocessing"],
+      "devops": ["Docker (local stack)", "GitHub Actions (CI/CD)"]
+    },
+    "highlights": [
+      "Custom face-recognition model (training and export for app use)",
+      "Multi-platform system (web dashboard, Android app, Express API)",
+      "Roles & permissions: user vs administrator",
+      "Docker support and CI/CD with GitHub Actions"
+    ],
+    "features": [
+      "Dashboard: manage users and packages, access control",
+      "API: face enrollment/verification, locker unlock command",
+      "Mobile app: locker unlocking, identity verification",
+      "Basic telemetry/logging for event tracking"
+    ],
+    "links": {
+      "repository": "https://github.com/TomiCigulaa/pametni-paketnik",
+      "liveDemo": null,
+      "docs": null
+    },
+    "images": [
+      { "alt": "Smart-Locker", "src": "/images/pametnik-paketnik.png" }
+    ],
+    "status": "In Progress"
+  },
+  {
+    "id": "3",
+    "slug": "kotlin-desktop-app",
+    "title": "Invoice Desktop App",
+    "tagline": "Course project in Kotlin (FERI) showcasing core programming concepts.",
+    "summary": "A desktop application developed during the Programming Languages curriculum at FERI, demonstrating core programming concepts and practical implementation.",
+    "description": "Solo-built Kotlin desktop application created for the Programming Languages course at FERI, University of Maribor. The project focuses on clean structure, core language features, and practical problem-solving in a desktop environment (JVM).",
+    "category": "Course Project",
+    "platform": "Desktop (JVM)",
+    "role": "Solo Developer",
+    "institution": "FERI, University of Maribor",
+    "tech": ["Kotlin", "Gradle", "MySql"],
+    "highlights": [
+      "Clean Kotlin codebase with Gradle build",
+      "Focused on core programming concepts",
+      "Structured desktop application layout"
+    ],
+    "features": [
+      "Desktop UI",
+      "Modular project structure",
+      "Build & run via Gradle"
+    ],
+    "links": {
+      "repository": "https://github.com/TomiCigulaa/Kotlin-Dekstop-App"
+    },
+    "images": [
+      {
+        "alt": "Invoices App picture",
+        "src": "/images/projectinvoices.png"
+      } 
+    ],
+    "status": "Completed"
+  },
+  {
+    "id": "2",
+    "slug": "pacman-unity",
+    "title": "Pacman (Unity)",
+    "tagline": "Simple Pac-Man clone built with Unity and C# (team of three).",
+    "summary": "A small Unity/C# game made during the academic year as a team of three, implementing the core Pac-Man loop and basic enemy behaviour.",
+    "description": "Team project developed in Unity using C#. The game recreates the classic Pac-Man loop with player movement in a maze, pellet collection, scoring and lives, and basic ghost behaviour. I focused on gameplay logic, collisions and UI/scene flow, and collaborated via Git to integrate features and polish the build.",
+    "category": "Course Project",
+    "platform": "Desktop (Unity, C#)",
+    "role": "Gameplay Programmer (team of three)",
+    "teamSize": 3,
+    "tech": ["Unity", "C#", "Git", "Jira"],
+    "highlights": [
+      "Player movement, pellet collection and scoring",
+      "Basic ghost chase/evade behaviour",
+      "Game states: start, play, game over",
+      "UI for score and lives",
+      "Scene management and collisions"
+    ],
+    "features": [
+      "Classic maze navigation",
+      "Collectibles with score system",
+      "Simple enemy AI patterns",
+      "Pause/Reset flow and game over screen",
+      "Audio/visual feedback for events"
+    ],
+    "links": {
+      "repository": "https://github.com/TomiCigulaa/pacman-unity",
+      "liveDemo": null,
+      "docs": null
+    },
+    "images": [
+      { "alt": "Gameplay screenshot", "src": "/images/pacmann.png" }
+    ],
+    "status": "Completed"
+  }
+]
