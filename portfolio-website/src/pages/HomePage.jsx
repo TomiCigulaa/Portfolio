@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import ExperienceList from '../components/ExperienceList'
 import ProjectList from '../components/ProjectList';
 import Education from '../components/Education';
+import ContactLinks from '../components/ContactLinks';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         <ExperienceList />        
         <ProjectList />
         <Education />
+        <ContactLinks />
     </>
  )
 }

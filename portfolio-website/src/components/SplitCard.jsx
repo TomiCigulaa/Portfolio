@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SplitCard = ({children, leftBoxBg = 'bg-stone-400', rightBoxBg= 'bg-stone-100', textAligment = 'text-left'}) => {
+const SplitCard = ({children, leftBoxBg = 'bg-slate-400', rightBoxBg= 'bg-slate-100', textAligment = 'text-left'}) => {
     let Left, Right;
     React.Children.forEach(children, child =>{
         if (!React.isValidElement(child)) return;

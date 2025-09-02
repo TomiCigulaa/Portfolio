@@ -1,8 +1,8 @@
 import React from 'react'
-import { FaLink } from 'react-icons/fa'
+import { FaLink } from 'react-icons/fa';
 
 const formatDate = (isoDate) =>
-    isoDate ? new Date(isoDate).toLocaleDateString('sl-SI', {month: 'short', year: 'numeric'}) : 'Today';
+    isoDate ? new Date(isoDate).toLocaleDateString('en-SI', {month: 'short', year: 'numeric'}) : 'Today';
 const EducationCard = ({ education }) => {
    
     if(!education) return null
@@ -10,7 +10,7 @@ const EducationCard = ({ education }) => {
     const {school, program, degree, start, end, status,links } = education;
 
   return (
-    <div className="flex flex-col bg-white p-6 rounded-xl shadow-md h-full">
+    <div className="flex flex-col bg-slate-100 p-6 rounded-xl shadow-md h-full">
       <a 
         href={links.school} 
         target="_blank" 

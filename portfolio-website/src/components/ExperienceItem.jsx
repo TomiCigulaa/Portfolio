@@ -9,7 +9,7 @@ const ExperienceItem = ({experience}) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
 
   const fmt = (iso) =>
-    new Date(iso).toLocaleDateString("sl-SI", { month: 'short', year: 'numeric'});
+    new Date(iso).toLocaleDateString("en-SI", { month: 'short', year: 'numeric'});
 
   if(!experience) return null;
   let description = experience.description;
@@ -25,7 +25,7 @@ const ExperienceItem = ({experience}) => {
           <a href={experience.link} target='_blank' 
               rel='noopener noreferrer' 
               className='font-bold text-xl block mb-4 inline-flex gap-1 
-              text-stone-900 hover:text-stone-600 transition-colors duration-200'>
+              text-stone-900 hover:text-blue-600 transition-colors duration-200 items-center'>
             {experience.company}
             <FaLink/>
           </a>
